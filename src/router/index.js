@@ -4,6 +4,9 @@ import homePage from '../components/Home.vue'
 import aboutPage from '../components/About.vue'
 import daftarPage from '../components/Daftar.vue'
 import loginPage from '../components/Login.vue'
+import cartPage from '../components/Cart.vue'
+import notificationPage from '../components/Notification.vue'
+
 
 Vue.use(VueRouter)
 
@@ -22,6 +25,17 @@ const routes = [
     path: '/daftar',
     name: 'daftar',
     component: daftarPage
+  },
+  {
+
+    path: '/notification',
+    name: 'notification',
+    component: notificationPage
+  },
+  {
+    path: '/cart',
+    name: 'cart',
+    component: cartPage
   },
   {
     path: '/login',

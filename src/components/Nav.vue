@@ -7,7 +7,7 @@
       style="background-color: #2b4b83 !important"
     >
       <div class="left-top-bar">
-        <a href="https://www.eurekabookhouse.co.id/"><span>Home</span></a>
+        <router-link :to="'/' " class=""><span>Home</span></router-link>
         <a href="https://www.eurekabookhouse.co.id/blog"><span>| Blog</span></a>
         <a href="https://www.eurekabookhouse.co.id/bantuan"><span>| Bantuan</span></a>
         <a href=""><span>| Ikuti Kami</span></a>
@@ -20,8 +20,13 @@
       </div>
       
 			<div class="right-top-bar flex-w h-full flex-c-m trans- p-lr-80">
+<<<<<<< HEAD
         <router-link :to="'/daftar'" class="flex-c-m trans-07 p-lr-50"><span>Daftar</span></router-link>
         <router-link :to="'/login'"><span>Login</span></router-link>
+=======
+        <a href="https://www.eurekabookhouse.co.id/register" class="flex-c-m trans-07 p-lr-50"><span>Daftar</span></a>
+        <router-link :to="'/login' " class="flex-c-m trans-07 p-lr-50"><span>Login</span></router-link>
+>>>>>>> d72df91959e45504419a53976800ba809f2f0e61
 			</div>
 
     
@@ -251,18 +256,18 @@
 					<div id="suggesstion-box" class="suggesstion-box"></div>
 				</form>
         <!-- js-show-cart -->
-				<a href="https://www.eurekabookhouse.co.id/frontend/account/notification/" class="ml-3 mr-3">
+				<router-link :to="'/notification'" class="ml-3 mr-3">
 					<div id="cart" class="icon-header-item cl2 hov-cl1 trans-04 p-l-11 p-r-11">
 						<i class="fa fa-bell cl0 fs-21"></i>
 					</div>
-				</a>
+				</router-link>
         <div style="width:15%; border:1px solid #fff">
-        <a href="src\components\Cart.vue" class="wrap-icon-header flex-c-m p-3" data-id="">
+        <router-link :to="'/cart'" class="wrap-icon-header flex-c-m p-3" data-id="">
 					<div id="cart" class="icon-header-item cl2 hov-cl1 trans-04 p-l-11 p-r-11">
 						<i class="fa fa-shopping-cart cl0"></i>
 					</div>
 					<span class="stext-107 cl0">Keranjang <span id="cart_notify" class="badge badge-warning superscript m-t--16 m-l-5 fs-20"></span></span>
-				</a>
+        </router-link>
         </div>
     </b-navbar>
  
