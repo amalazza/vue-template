@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <app-nav-bar />
-    <app-homepage />
+    <router-view :key="$route.path" />
+    <!-- <app-homepage /> -->
     <app-footer />
-    <app-cart />
     
     
   </div>
@@ -11,18 +11,14 @@
 
 <script>
 import navBar from "@/components/Nav.vue";
-import homePage from "@/components/Home.vue";
+// import homePage from "@/components/Home.vue";
 import footerPage from "@/components/Footer.vue";
-import cartPage from "@/components/Cart.vue"
 
 export default {
   components: {
     "app-nav-bar": navBar,
-    "app-homepage": homePage,
+    // "app-homepage": homePage,
     "app-footer": footerPage,
-    "app-cart": cartPage,
-
-    
   },
 };
 </script>
