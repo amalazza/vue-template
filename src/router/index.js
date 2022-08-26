@@ -1,15 +1,33 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+import homePage from '../components/Home.vue'
+import aboutPage from '../components/About.vue'
+import daftarPage from '../components/Daftar.vue'
+import loginPage from '../components/Login.vue'
 import cartPage from '../components/Cart.vue'
 import notificationPage from '../components/Notification.vue'
-import homePage from '../components/Home.vue'
-import loginPage from '../components/login.vue'
 
 
 Vue.use(VueRouter)
 
 const routes = [
   {
+    path: '/',
+    name: 'home',
+    component: homePage
+  },
+  {
+    path: '/about',
+    name: 'about',
+    component: aboutPage
+  },
+  {
+    path: '/daftar',
+    name: 'daftar',
+    component: daftarPage
+  },
+  {
+
     path: '/notification',
     name: 'notification',
     component: notificationPage
@@ -20,16 +38,10 @@ const routes = [
     component: cartPage
   },
   {
-    path: '/',
-    name: 'home',
-    component: homePage
-  },
-  {
     path: '/login',
     name: 'login',
     component: loginPage
-  },
-
+  }
 ]
 
 const router = new VueRouter({
