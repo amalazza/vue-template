@@ -20,8 +20,8 @@
       </div>
       
 			<div class="right-top-bar flex-w h-full flex-c-m trans- p-lr-80">
-        <a href="https://www.eurekabookhouse.co.id/register" class="flex-c-m trans-07 p-lr-50"><span>Daftar</span></a>
-        <a href="https://www.eurekabookhouse.co.id/login" class="flex-c-m trans-07 p-lr-50"><span>Login</span></a>
+        <router-link :to="'/daftar'" class="flex-c-m trans-07 p-lr-50"><span>Daftar</span></router-link>
+        <router-link :to="'/login'"><span>Login</span></router-link>
 			</div>
 
     

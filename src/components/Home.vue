@@ -1513,7 +1513,7 @@
 <script scope>
 import Flickity from 'vue-flickity';
 export default {
-  name: "navBar",
+  name: "homePage",
   components: {
       Flickity
     },
