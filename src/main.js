@@ -6,6 +6,9 @@ import store from './store'
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import '@/assets/util.min.css';
 import "font-awesome/css/font-awesome.min.css";
+import Carousel3d from 'vue-carousel-3d';
+
+
 
 // Import Bootstrap and BootstrapVue CSS files (order is important)
 import 'bootstrap/dist/css/bootstrap.css'
@@ -17,6 +20,7 @@ Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)
 
 Vue.component('VueFontawesome', require('vue-fontawesome-icon/VueFontawesome.vue').default);
+Vue.use(Carousel3d);
 
 
 
