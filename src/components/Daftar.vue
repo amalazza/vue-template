@@ -47,6 +47,6 @@
 </template>
 <script scope>
 export default {
-  name: "daftarPage",
+  name: "daftarPage", 
 }
 </script>
