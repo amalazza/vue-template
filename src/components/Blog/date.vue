@@ -1,0 +1,80 @@
+<template>
+    <div>
+<div>
+    <div class="bg1">
+        <div class="">
+            <div class="p-t-3 p-b-5">
+                <nav class="">
+                    <router-link :to="'/Blog/pejuang'" class="center">
+                        <img src="https://www.eurekabookhouse.co.id/assets/front/images/icons/ebhcom-header_new.png"
+                            alt="IMG-LOGO" class="center">
+                    </router-link>
+                </nav>
+            </div>
+        </div>
+    </div>
+<section class="bg0 p-t-20 text-left" style="min-height: 100%">
+    <div class="container">
+        <h3 class="ltext-101 p-tb-20">Update</h3>
+        <div class="row">
+            <div class="col-sm-6 col-md-3 p-b-20">
+                <div class="blog-item bg0 bor8">
+                    <div class="blog-pic hov-img0">
+                        <a
+                            href="https://www.eurekabookhouse.co.id/blog/read/sekarang-bisa-bayar-lewat-virtual-account--go-pay--dan-akulaku--update-v-1-01-">
+                            <img class="blog-read-pic" src="https://cdn.eurekabookhouse.co.id/ebh/blog/ppob-min.jpg">
+                        </a>
+                    </div>
+                    <div class="p-all-15">
+                        <div class="stext-112 flex-w p-b-14 cl1"><a
+                                href="https://www.eurekabookhouse.co.id/blog/category/update">Update</a></div>
+                        <h4 class="p-b-32">
+                            <a href="https://www.eurekabookhouse.co.id/blog/read/sekarang-bisa-bayar-lewat-virtual-account--go-pay--dan-akulaku--update-v-1-01-"
+                                class="mtext-101 cl2 hov-cl1 trans-04">
+                                Sekarang bisa bayar lewat Virtual Account, GO-Pay, dan Akulaku (Update V 1.01) </a>
+                        </h4>
+                        <span class="stext-102 m-t-20">14 November 2022</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3 p-b-20">
+                <div class="blog-item bg0 bor8">
+                    <div class="blog-pic hov-img0">
+                        <a
+                            href="https://www.eurekabookhouse.co.id/blog/read/rajacepat-platform-kurir-baru-di-indonesia">
+                            <img class="blog-read-pic"
+                                src="https://cdn.eurekabookhouse.co.id/ebh/blog/imgBlogs10_113602.jpg">
+                        </a>
+                    </div>
+                    <div class="p-all-15">
+                        <div class="stext-112 flex-w p-b-14 cl1"><a
+                                href="https://www.eurekabookhouse.co.id/blog/category/update">Update</a></div>
+                        <h4 class="p-b-32">
+                            <a href="https://www.eurekabookhouse.co.id/blog/read/rajacepat-platform-kurir-baru-di-indonesia"
+                                class="mtext-101 cl2 hov-cl1 trans-04">
+                                RajaCepat Platform kurir baru di Indonesia </a>
+                        </h4>
+                        <span class="stext-102 m-t-20">13 November 2022</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- <footer class="bgu1 p-t-15 p-b-15">
+    <div class="container">
+        <div class="p-t-10">
+            <p class="stext-107 cl0 txt-center">
+                Copyright &copy;Dikembangkan oleh Eureka IT Developer
+            </p>
+        </div>
+    </div>
+</footer> -->
+</div>
+    </div>
+</template>
+<script>
+export default {
+    name: "datePage",
+}
+</script>

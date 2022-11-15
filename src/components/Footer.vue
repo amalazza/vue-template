@@ -1,6 +1,6 @@
 <template>
 <div>
-	<footer class="desktop-footer bg0 p-t-35 p-b-15">
+	<footer >
 		<div class="container">
 			<div class="collapse m-b-15" id="collapseExample">
 				<div class="card card-body">

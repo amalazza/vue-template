@@ -1,12 +1,16 @@
+
 <template>
 <div>
 	<section class="bg6 p-t-15 m-b-100">
 		<div class="container">
 			<div class="text-center">
+				
 				<h3 class="mtext-103 cl5 m-b-10"><b>Shopping Cart</b></h3>
 			</div>
 			<div id="isi_cart">
+				
 								<div class="card">
+									
 						<div class="card-body p-all-0">
 							<form id="cartform" action="https://www.eurekabookhouse.co.id/frontend/pemesanan/checkout" method="POST">
 								<input type="hidden" name="customer_id" value="98005" />
@@ -71,7 +75,7 @@
 								<div class="col-7 p-lr-0">
 									<div class="p-all-6 m-l-15 flex-l">
 										<h5 class="p-t-8 m-r-10">Rp.</h5>
-										<input class="form-control grdtot" id="totalharga" type="text" name="grandTotal" readonly>
+										<input class="form-control grdtot" id="totalharga" type="text" name="grandTotal"  placeholder="52.000" readonly>
 									</div>
 								</div>
 								<div class="col-3 p-tb-5 p-r-20 p-l-1">
@@ -97,13 +101,20 @@
 	</div>
 </div>
 </template>
+
 <script scope>
 export default {
   name: "cartPage",
 }
 </script>
 
+
 <style type="text/css">
+.scrollable-menu {
+	height: auto;
+	max-height: 200px;
+	overflow-x: hidden;
+}
 	.text1l{
 		overflow: hidden;
 		text-overflow: ellipsis;

@@ -7,6 +7,7 @@ import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import '@/assets/util.min.css';
 import "font-awesome/css/font-awesome.min.css";
 import Carousel3d from 'vue-carousel-3d';
+import VueMq from 'vue-mq';
 
 
 
@@ -31,3 +32,19 @@ new Vue({
   store,
   render: h => h(App)
 }).$mount('#app')
+
+Vue.use(VueMq, {
+  breakpoints: {
+    sm: 450,
+    md: 1250,
+    lg: Infinity,
+  }
+})
+Vue.use(VueMq, {
+  breakpoints: {
+    mobile: 450,
+    tablet: 900,
+    laptop: 1250,
+    desktop: Infinity,
+  }
+})

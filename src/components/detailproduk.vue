@@ -13,9 +13,9 @@
 											</div>
                                                 </div>
 				<div class="col-md-6 col-lg-8 p-b-10">
-					<div class="p-all-20 m-b-10">
-						<a href="https://www.eurekabookhouse.co.id/cari/result?manufacturer=we-bare-bears" class="stext-101"><span class="ctext-101 fs-18"><b>We Bare Bears</b></span></a>
-						<h1 class="ctext-102 cl2 js-name-detail p-b-10" style="font-size: 30px">
+					<div class="p-all-20 m-b-10 text-left">
+						<a href="https://www.eurekabookhouse.co.id/cari/result?manufacturer=we-bare-bears" class="stext-101"><span class="ctext-101 fs-18 "><b>We Bare Bears</b></span></a>
+						<h1 class="ctext-102 cl2 js-name-detail p-b-10 text-left" style="font-size: 30px">
 							We Bare Bears Pocket Backpack Brown						</h1>
 
 						<div class="flex-w flex-m p-b-20">
@@ -37,44 +37,51 @@
 													</span>
 					</div>
                     <div class="m-t-20">
-															<div class="flex-w flex-l-m p-b-10">
-									<div class="size-204 flex-w flex-m">
-										<div class="flex-w m-r-20 m-tb-10">
-											<span class="stext-107">Kuantitas</span>
-										</div>
-										<div class="wrap-num-product flex-w m-r-20 m-tb-10">
-											<div class="tbl-turun cl8 hov-btn3 trans-04 flex-c-m">
-												<i class="fa fa-minus"></i>
-											</div>
-											<input class="mtext-104 cl3 txt-center num-product" id="num-product" type="text" name="num-product" value="1">
-											<div class="tbl-naik cl8 hov-btn3 trans-04 flex-c-m">
-												<i class="fa fa-plus"></i>
-											</div>
-										</div>
-										<div class="flex-w m-r-20 m-tb-10">
-											<span class="stext-107">Stok <span class="stext-101 cl1 berapastok">5</span> unit</span>
-										</div>
-										<div class="flex-w m-r-20 m-tb-10">
-											<span class="cl1 stext-100">Tersedia</span>
-										</div>
-										
-												<a href="https://wa.me/6287888337555" class=" 	btn-success"> Tanya Stok</a>
-									</div>
-								</div>
+													<div class="flex-w flex-l-m p-b-10">
+														<div class="size-204 flex-w flex-m">
+															<div class="flex-w m-r-20 m-tb-10">
+																<span class="stext-107">Kuantitass</span>
+															</div>
+															<div class="wrap-num-product flex-w m-r-20 m-tb-10">
+																<div class="tbl-turun cl8 hov-btn3 trans-04 flex-c-m">
+																	<i class="fa fa-minus"></i>
+																</div>
+																<input class="mtext-104 cl3 txt-center num-product" id="num-product" type="text" name="num-product"
+																	value="1">
+																<div class="tbl-naik cl8 hov-btn3 trans-04 flex-c-m">
+																	<i class="fa fa-plus"></i>
+																</div>
+															</div>
+															<div class="flex-w m-r-20 m-tb-10">
+																<span class="stext-107">Stok <span class="stext-101 cl1 berapastok">10</span> unit</span>
+															</div>
+															<div class="flex-w m-r-20 m-tb-10">
+																<span class="cl1 stext-101">Tersedia</span>
+															</div>
+													
+															<a href="https://wa.me/6287888337555" class="btn btn-success"> Tanya Stok</a>
+														</div>
+													</div>
 													</div>
 
-													<div class="baris-tbl-cart">
+													<div class="baris-tbl-cart flex-l-m p-b-10">
 								<div class="row">
 									<div class="col-6 col-md-6 p-lr-5">
-										<router-link :to="'/cart'" id="21539" class="flex-c-m stext-100 cl0 size-100 bg1 bor3 hov-btn1 p-lr-10 js-addcart-checkout  btn-block">
+										<router-link :to="'/cart'">
+										<button id="21671"
+											class="flex-c-m stext-101 cl0 size-107 bg1 bor3 hov-btn1 p-lr-10 js-addcart-checkout  btn-block">
 											<i class="fa fa-shopping-bag"></i> <small class="p-l-5">Pesan Sekarang</small>
-										</router-link>	
+										</button>
+										</router-link>
 									</div>
 									<div class="col-6 col-lg-6 col-md-6 p-lr-5">
-										<router-link :to="'/cart'" id="21539" class="flex-c-m stext-100 size-100 bor3 hov-btn1 p-lr-10 js-addcart-detail btn-block btn-warning">
+										<router-link :to="'/cart'">
+										<button id="21671"
+											class="flex-c-m stext-101 size-107 bor3 hov-btn1 p-lr-10 js-addcart-detail btn-block btn-warning">
 											<i class="fa fa-shopping-cart"></i> <small class="p-l-5">Tambah ke Cart</small>
-										</router-link>	
-									</div>					
+										</button>
+										</router-link>
+									</div>
 								</div>
 							</div>
 											</div>
@@ -88,7 +95,7 @@
 					<img class="mr-2" src="https://cdn.eurekabookhouse.co.id/ebh/mall/EurekaBookhouse_foto18_37_57.png" style="max-width: 100px;">
 					<div class="detail-mall">
 						<h4 class="mtext-108">EurekaBookhouse</h4>
-						<p class="stext-107 cl1"><i class="fa fa-diamond m-r-10"></i>Aktif</p> 
+						<p class="stext-107 cl1 text-left"><i class="fa fa-diamond m-r-10 text-left"></i>Aktif</p> 
 					</div>
 				</div>
 			</div>
@@ -118,12 +125,12 @@
 								<p>Size : 38 x 30 x 12 cm</p>
 								<br>
 								<div class="m-t-20">
-																			<span class="badge badge-primary">we</span>
-																			<span class="badge badge-primary">bare</span>
-																			<span class="badge badge-primary">bears</span>
-																			<span class="badge badge-primary">pocket</span>
-																			<span class="badge badge-primary">backpack</span>
-																			<span class="badge badge-primary">brown</span>
+																			<span class="badge badge-primary mr-2 ">we</span>
+																			<span class="badge badge-primary mr-2 ">bare</span>
+																			<span class="badge badge-primary mr-2 ">bears</span>
+																			<span class="badge badge-primary mr-2 ">pocket</span>
+																			<span class="badge badge-primary mr-2 " >backpack</span>
+																			<span class="badge badge-primary mr-2 ">brown</span>
 																	</div>
 							</div>
 						</div>

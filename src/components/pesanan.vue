@@ -113,11 +113,11 @@
                                 </div>
                                 <div class="size-209 text-right">
                                     <span class="mtext-108 cl1">
-                                        <b>Rp.61.000									</b>
+                                        <b>Rp.61.000</b>
                                     </span>
                                 </div>
                             </div>
-                                                        <button onclick="bayar_orderan(2209060002)" class="desktop-only flex-c-m stext-101 cl0 size-116 bg1 hov-btn1 p-lr-15 trans-04 pointer">
+                                                        <button onclick="bayar_orderan(2209060002)"  v-b-modal.modal-1 class="desktop-only flex-c-m stext-101 cl0 size-116 bg1 hov-btn1 p-lr-15 trans-04 pointer">
                                     Pembayaran
                                 </button>
                                 <router-link :to="'/pesananbatal'" class="desktop-only flex-c-m stext-101 cl0 size-116 bgu2 hov-btn1 p-lr-15 trans-04 pointer">
@@ -126,6 +126,9 @@
     
                                                     
                         </div>
+                        <b-modal id="modal-1">
+                            <b-link href="https://app.sandbox.midtrans.com/snap/v3/redirection/0c5123d1-6de0-4fcf-ba75-378f9b528c9f"></b-link>
+                        </b-modal>
                         <div class="text-center m-t-10">
                             <span class="stext-107"><b>Informasi:</b> 087888337555 (WA)</span>
                         </div>
