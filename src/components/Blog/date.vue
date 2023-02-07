@@ -20,18 +20,16 @@
             <div class="col-sm-6 col-md-3 p-b-20">
                 <div class="blog-item bg0 bor8">
                     <div class="blog-pic hov-img0">
-                        <a
-                            href="https://www.eurekabookhouse.co.id/blog/read/sekarang-bisa-bayar-lewat-virtual-account--go-pay--dan-akulaku--update-v-1-01-">
+                        <router-link :to="'/Blog/allupdate/bayar'">
                             <img class="blog-read-pic" src="https://cdn.eurekabookhouse.co.id/ebh/blog/ppob-min.jpg">
-                        </a>
+                        </router-link>
                     </div>
                     <div class="p-all-15">
-                        <div class="stext-112 flex-w p-b-14 cl1"><a
-                                href="https://www.eurekabookhouse.co.id/blog/category/update">Update</a></div>
+                        <div class="stext-112 flex-w p-b-14 cl1"><router-link :to="'/Blog/allupdate/bayar'">Update</router-link></div>
                         <h4 class="p-b-32">
-                            <a href="https://www.eurekabookhouse.co.id/blog/read/sekarang-bisa-bayar-lewat-virtual-account--go-pay--dan-akulaku--update-v-1-01-"
+                        <router-link :to="'/Blog/allupdate/bayar'"
                                 class="mtext-101 cl2 hov-cl1 trans-04">
-                                Sekarang bisa bayar lewat Virtual Account, GO-Pay, dan Akulaku (Update V 1.01) </a>
+                                Sekarang bisa bayar lewat Virtual Account, GO-Pay, dan Akulaku (Update V 1.01) </router-link>
                         </h4>
                         <span class="stext-102 m-t-20">14 November 2022</span>
                     </div>
@@ -40,19 +38,17 @@
             <div class="col-sm-6 col-md-3 p-b-20">
                 <div class="blog-item bg0 bor8">
                     <div class="blog-pic hov-img0">
-                        <a
-                            href="https://www.eurekabookhouse.co.id/blog/read/rajacepat-platform-kurir-baru-di-indonesia">
+                        <router-link :to="'/Blog/allupdate/race'">
                             <img class="blog-read-pic"
                                 src="https://cdn.eurekabookhouse.co.id/ebh/blog/imgBlogs10_113602.jpg">
-                        </a>
+                        </router-link>
                     </div>
                     <div class="p-all-15">
-                        <div class="stext-112 flex-w p-b-14 cl1"><a
-                                href="https://www.eurekabookhouse.co.id/blog/category/update">Update</a></div>
+                        <div class="stext-112 flex-w p-b-14 cl1"><router-link :to="'/Blog/allupdate/race'">Update</router-link></div>
                         <h4 class="p-b-32">
-                            <a href="https://www.eurekabookhouse.co.id/blog/read/rajacepat-platform-kurir-baru-di-indonesia"
+                        <router-link :to="'/Blog/allupdate/race'"
                                 class="mtext-101 cl2 hov-cl1 trans-04">
-                                RajaCepat Platform kurir baru di Indonesia </a>
+                                RajaCepat Platform kurir baru di Indonesia </router-link>
                         </h4>
                         <span class="stext-102 m-t-20">13 November 2022</span>
                     </div>

@@ -48,7 +48,7 @@
 		<div class="d-lg-none">
 		<section class="pt-4 pb-2">
 			<div class="container ">
-		<b-carousel id="carousel-1" v-model="slide" :interval="1500" indicators img-width="1024" img-height="480" @sliding-start="onSlideStart" @sliding-end="onSlideEnd">
+		<b-carousel id="carousel-1" v-model="slide" :interval="1500" img-width="1024" img-height="480" @sliding-start="onSlideStart" @sliding-end="onSlideEnd">
 		<b-carousel-slide img-src="https://www.eurekabookhouse.co.id/assets/uplod/slider/0_slider14_10_08.jpg"></b-carousel-slide>
 		<b-carousel-slide img-src="https://www.eurekabookhouse.co.id/assets/uplod/slider/0_slider10_38_40.jpg"></b-carousel-slide>
 		<b-carousel-slide img-src="https://www.eurekabookhouse.co.id/assets/uplod/slider/0_slider16_37_07.png"></b-carousel-slide>
@@ -693,6 +693,7 @@ export default {
 				prevNextButtons: false,
 				pageDots: false,
 				cellAlign: "left",
+				
 				wrapAround: false,
 				freeScroll: false,
 			},

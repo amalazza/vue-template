@@ -19,19 +19,17 @@
             <div class="col-sm-6 col-md-3 p-b-20">
                 <div class="blog-item bg0 bor8">
                     <div class="blog-pic hov-img0">
-                        <a
-                            href="https://www.eurekabookhouse.co.id/blog/read/cermati--trailer-avenger-endgame-terbaru-hadirkan-fakta-fakta-mengejutkan">
+                        <router-link :to="'/Blog/allnonfiksi/avanger'">
                             <img class="blog-read-pic"
                                 src="https://cdn.eurekabookhouse.co.id/ebh/blog/trailer_avenger.jpg">
-                        </a>
+                        </router-link>
                     </div>
                     <div class="p-all-15">
-                        <div class="stext-112 flex-w p-b-14 cl1"><a
-                                href="https://www.eurekabookhouse.co.id/blog/category/non-fiksi">Non-Fiksi</a></div>
+                        <div class="stext-112 flex-w p-b-14 cl1"><router-link :to="'/Blog/allnonfiksi/avanger'">Non-Fiksi</router-link></div>
                         <h4 class="p-b-32">
-                            <a href="https://www.eurekabookhouse.co.id/blog/read/cermati--trailer-avenger-endgame-terbaru-hadirkan-fakta-fakta-mengejutkan"
+                            <router-link :to="'/Blog/allnonfiksi/avanger'"
                                 class="mtext-101 cl2 hov-cl1 trans-04">
-                                Cermati! Trailer Avenger:Endgame Terbaru Hadirkan Fakta-fakta Mengejutkan </a>
+                                Cermati! Trailer Avenger:Endgame Terbaru Hadirkan Fakta-fakta Mengejutkan </router-link>
                         </h4>
                         <span class="stext-102 m-t-20">13 November 2022</span>
                     </div>
@@ -40,19 +38,17 @@
             <div class="col-sm-6 col-md-3 p-b-20">
                 <div class="blog-item bg0 bor8">
                     <div class="blog-pic hov-img0">
-                        <a
-                            href="https://www.eurekabookhouse.co.id/blog/read/dipercepat-sehari--pengumuman-snmptn-bisa-dicek-22-maret-2019">
+                        <router-link :to="'/Blog/allnonfiksi/snmptn'">
                             <img class="blog-read-pic"
                                 src="https://cdn.eurekabookhouse.co.id/ebh/blog/pengumuman-snmptn-dipercepat-22-maret-2019-catat-jam-pengumumannya.jpg">
-                        </a>
+                        </router-link>
                     </div>
                     <div class="p-all-15">
-                        <div class="stext-112 flex-w p-b-14 cl1"><a
-                                href="https://www.eurekabookhouse.co.id/blog/category/non-fiksi">Non-Fiksi</a></div>
+                        <div class="stext-112 flex-w p-b-14 cl1"><router-link :to="'/Blog/allnonfiksi/snmptn'">Non-Fiksi</router-link></div>
                         <h4 class="p-b-32">
-                            <a href="https://www.eurekabookhouse.co.id/blog/read/dipercepat-sehari--pengumuman-snmptn-bisa-dicek-22-maret-2019"
+                        <router-link :to="'/Blog/allnonfiksi/snmptn'"
                                 class="mtext-101 cl2 hov-cl1 trans-04">
-                                Dipercepat Sehari, Pengumuman SNMPTN bisa dicek 22 Maret 2019 </a>
+                                Dipercepat Sehari, Pengumuman SNMPTN bisa dicek 22 Maret 2019 </router-link>
                         </h4>
                         <span class="stext-102 m-t-20">12 November 2022</span>
                     </div>

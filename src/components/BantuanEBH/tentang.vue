@@ -49,31 +49,30 @@
                 <div class="p-tb-15 p-lr-50 text-left">
                     <ul>
                         <li class="m-tb-15">
-                            <a class="stext-101 cl2" href="tentang-buka-lapak/tentang-eureka-bookhouse">Sekilas Eureka
-                                Bookhouse</a>
+                            <router-link :to="'/BantuanEBH/alltentang/sekilas'" class="stext-101 cl2">Sekilas Eureka
+                                Bookhouse</router-link>
                         </li>
                     </ul>
                     <ul>
                         <li class="m-tb-15">
-                            <a class="stext-101 cl2" href="tentang-buka-lapak/hubungi-eureka-bookhouse">Hubungi Eureka
-                                Bookhouse</a>
+                            <router-link :to="'/BantuanEBH/alltentang/hubungi'" class="stext-101 cl2">Hubungi Eureka
+                                Bookhouse</router-link>
                         </li>
                     </ul>
                     <ul>
                         <li class="m-tb-15">
-                            <a class="stext-101 cl2"
-                                href="tentang-buka-lapak/keuntungan-menjadi-member-eureka-bookhouse">Keuntungan menjadi
-                                member Eureka Bookhouse</a>
+                            <router-link :to="'/BantuanEBH/alltentang/keuntungan'" class="stext-101 cl2">Keuntungan menjadi
+                                member Eureka Bookhouse</router-link>
                         </li>
                     </ul>
                     <ul>
                         <li class="m-tb-15">
-                            <a class="stext-101 cl2" href="tentang-buka-lapak/syarat-layanan">Syarat Layanan</a>
+                            <router-link :to="'/BantuanEBH/alltentang/syarat'" class="stext-101 cl2">Syarat Layanan</router-link>
                         </li>
                     </ul>
                     <ul>
                         <li class="m-tb-15">
-                            <a class="stext-101 cl2" href="tentang-buka-lapak/return-policy">Return Policy</a>
+                            <router-link :to="'/BantuanEBH/alltentang/return'" class="stext-101 cl2">Return Policy</router-link>
                         </li>
                     </ul>
                 </div>

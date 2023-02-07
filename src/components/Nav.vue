@@ -1,9 +1,11 @@
 <template>
 	<div>
+
 			<div class="d-none d-md-block d-lg-block d-xl-block">
 		<b-navbar toggleable="lg" type="dark" variant="info" style="background-color: #2b4b83 !important" >
 			<div class="left-top-bar">
-					<router-link :to="'/' "  class="stext-107 hov-cl0 cl0 p-r-10">Home</router-link> |
+					<router-link :to="'/' "  class="
+					-cl0 cl0 p-r-10">Home</router-link> |
 					<router-link :to="'/blog'" class=""><span class="stext-107 hov-cl0 cl0 p-r-10"> Blog </span></router-link> |
 					<router-link :to="'/BantuanEBH/bantuan'" class=""><span class="stext-107 hov-cl0 cl0 p-lr-10">Bantuan</span></router-link>
 					|
@@ -507,7 +509,6 @@ body {
 .has-child.is-hover>.catalog__popover-popup {
 	display: block;
 }
-
 
 .fade-page {
 	position: fixed;

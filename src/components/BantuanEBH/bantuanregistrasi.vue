@@ -45,41 +45,40 @@
                         <div class="p-tb-15 p-lr-50">
                             <ul>
                                 <li class="m-tb-15">
-                                    <a class="stext-101 cl2"
-                                        href="registrasi-dan-akun-member/syarat-menjadi-member-eureka-bookhouse">Syarat menjadi
-                                        member Eureka Bookhouse</a>
+                                   
+                                    <router-link :to="'/BantuanEBH/allregistrasi/syaratmember'"  class="stext-101 cl2">Syarat menjadi
+                                        member Eureka Bookhouse</router-link>
                                 </li>
                             </ul>
                             <ul>
                                 <li class="m-tb-15">
-                                    <a class="stext-101 cl2"
-                                        href="registrasi-dan-akun-member/biaya-mendaftar-di-eureka-bookhouse">Biaya mendaftar di
-                                        Eureka Bookhouse</a>
+
+                                    <router-link :to="'/BantuanEBH/allregistrasi/biayadaftar'" class="stext-101 cl2">Biaya mendaftar di
+                                        Eureka Bookhouse</router-link>
                                 </li>
                             </ul>
                             <ul>
                                 <li class="m-tb-15">
-                                    <a class="stext-101 cl2" href="registrasi-dan-akun-member/cara-daftar-dengan-e-mail">Cara
-                                        Daftar Dengan E-mail</a>
+                                    <router-link :to="'/BantuanEBH/allregistrasi/email'" class="stext-101 cl2">Cara
+                                        Daftar Dengan E-mail</router-link>
                                 </li>
                             </ul>
                             <ul>
                                 <li class="m-tb-15">
-                                    <a class="stext-101 cl2" href="registrasi-dan-akun-member/cara-daftar-dengan-gmail">Cara
-                                        Daftar Dengan Gmail</a>
+                                    <router-link :to="'/BantuanEBH/allregistrasi/gmail'" class="stext-101 cl2">Cara
+                                        Daftar Dengan Gmail</router-link>
                                 </li>
                             </ul>
                             <ul>
                                 <li class="m-tb-15">
-                                    <a class="stext-101 cl2" href="registrasi-dan-akun-member/cara-daftar-dengan-facebook">Cara
-                                        Daftar Dengan Facebook</a>
+                                <router-link :to="'/BantuanEBH/allregistrasi/facebook'" class="stext-101 cl2">Cara
+                                        Daftar Dengan Facebook</router-link>
                                 </li>
                             </ul>
                             <ul>
                                 <li class="m-tb-15">
-                                    <a class="stext-101 cl2"
-                                        href="registrasi-dan-akun-member/cara-login-ke-eureka-bookhouse">Cara Login ke Eureka
-                                        Bookhouse</a>
+                                <router-link :to="'/BantuanEBH/allregistrasi/loginebh'" class="stext-101 cl2"> Cara Login ke Eureka
+                                        Bookhouse</router-link>
                                 </li>
                             </ul>
                         </div>

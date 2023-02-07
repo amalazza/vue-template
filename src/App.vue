@@ -156,6 +156,134 @@
             <router-view :key="$route.path" />
           </div>
         </div>
+        <div v-else-if="paramUrl === '1'">
+          <div>
+            <router-view :key="$route.path" />
+          </div>
+        </div>
+        <div v-else-if="paramUrl === '2'">
+          <div>
+            <router-view :key="$route.path" />
+          </div>
+        </div>
+        <div v-else-if="paramUrl === '3'">
+          <div>
+            <router-view :key="$route.path" />
+          </div>
+        </div>
+        <div v-else-if="paramUrl === '4'">
+          <div>
+            <router-view :key="$route.path" />
+          </div>
+        </div>
+        <div v-else-if="paramUrl === '5'">
+          <div>
+            <router-view :key="$route.path" />
+          </div>
+        </div>
+        <div v-else-if="paramUrl === '6'">
+          <div>
+            <router-view :key="$route.path" />
+          </div>
+        </div>
+        <div v-else-if="paramUrl === '7'">
+          <div>
+            <router-view :key="$route.path" />
+          </div>
+        </div>
+        <div v-else-if="paramUrl === '8'">
+          <div>
+            <router-view :key="$route.path" />
+          </div>
+        </div>
+        <div v-else-if="paramUrl === '9'">
+          <div>
+            <router-view :key="$route.path" />
+          </div>
+        </div>
+        <div v-else-if="paramUrl === '10'">
+          <div>
+            <router-view :key="$route.path" />
+          </div>
+        </div>
+
+        <div v-else-if="paramUrl === 'a'">
+          <div>
+            <router-view :key="$route.path" />
+          </div>
+        </div>
+        <div v-else-if="paramUrl === 'b'">
+          <div>
+            <router-view :key="$route.path" />
+          </div>
+        </div>
+        <div v-else-if="paramUrl === 'c'">
+          <div>
+            <router-view :key="$route.path" />
+          </div>
+        </div>
+        <div v-else-if="paramUrl === 'd'">
+          <div>
+            <router-view :key="$route.path" />
+          </div>
+        </div>
+        <div v-else-if="paramUrl === 'e'">
+          <div>
+            <router-view :key="$route.path" />
+          </div>
+        </div>
+        <div v-else-if="paramUrl === 'f'">
+          <div>
+            <router-view :key="$route.path" />
+          </div>
+        </div>
+        <div v-else-if="paramUrl === 'g'">
+          <div>
+            <router-view :key="$route.path" />
+          </div>
+        </div>
+        <div v-else-if="paramUrl === 'h'">
+          <div>
+            <router-view :key="$route.path" />
+          </div>
+        </div>
+
+        <div v-else-if="paramUrl === 'bestsellernovel'">
+          <div>
+            <router-view :key="$route.path" />
+          </div>
+        </div>
+        <div v-else-if="paramUrl === 'fiksiterbaik'">
+          <div>
+            <router-view :key="$route.path" />
+          </div>
+        </div>
+        <div v-else-if="paramUrl === 'sayuranorganik'">
+          <div>
+            <router-view :key="$route.path" />
+          </div>
+        </div>
+        <div v-else-if="paramUrl === 'race'">
+          <div>
+            <router-view :key="$route.path" />
+          </div>
+        </div>
+        <div v-else-if="paramUrl === 'avanger'">
+          <div>
+            <router-view :key="$route.path" />
+          </div>
+        </div>
+        <div v-else-if="paramUrl === 'bayar'">
+          <div>
+            <router-view :key="$route.path" />
+          </div>
+        </div>
+        <div v-else-if="paramUrl === 'snmptn'">
+          <div>
+            <router-view :key="$route.path" />
+          </div>
+        </div>
+        
         <div v-else-if="paramUrl === 'rekomondasi'">
           <div>
             <router-view :key="$route.path" />
@@ -171,6 +299,153 @@
               <router-view :key="$route.path" />
             </div>
         </div>
+
+        <div v-else-if="paramUrl === 'addbarang'">
+          <div>
+            <router-view :key="$route.path" />
+          </div>
+        </div>
+        <div v-else-if="paramUrl === 'addcheckout'">
+          <div>
+            <router-view :key="$route.path" />
+          </div>
+        </div>
+        <div v-else-if="paramUrl === 'masalahpromo'">
+          <div>
+            <router-view :key="$route.path" />
+          </div>
+        </div>
+        <div v-else-if="paramUrl === 'menerimapesanana'">
+          <div>
+            <router-view :key="$route.path" />
+          </div>
+        </div>
+            <div v-else-if="paramUrl === 'racecoin'">
+              <div>
+                <router-view :key="$route.path" />
+              </div>
+            </div>
+            <div v-else-if="paramUrl === 'jadioffice'">
+              <div>
+                <router-view :key="$route.path" />
+              </div>
+            </div>
+            <div v-else-if="paramUrl === 'layananoffice'">
+              <div>
+                <router-view :key="$route.path" />
+              </div>
+            </div>
+            <div v-else-if="paramUrl === 'produkdilarang'">
+              <div>
+                <router-view :key="$route.path" />
+              </div>
+            </div>
+            <div v-else-if="paramUrl === 'aturkirim'">
+              <div>
+                <router-view :key="$route.path" />
+              </div>
+            </div>
+            <div v-else-if="paramUrl === 'editalamatmember'">
+              <div>
+                <router-view :key="$route.path" />
+              </div>
+            </div>
+            <div v-else-if="paramUrl === 'fotoakun'">
+              <div>
+                <router-view :key="$route.path" />
+              </div>
+            </div>
+            <div v-else-if="paramUrl === 'hapusalamat'">
+              <div>
+                <router-view :key="$route.path" />
+              </div>
+            </div>
+            <div v-else-if="paramUrl === 'kebijakanprivasi'">
+              <div>
+                <router-view :key="$route.path" />
+              </div>
+            </div>
+            <div v-else-if="paramUrl === 'namaakun'">
+              <div>
+                <router-view :key="$route.path" />
+              </div>
+            </div>
+            <div v-else-if="paramUrl === 'passwordakun'">
+              <div>
+                <router-view :key="$route.path" />
+              </div>
+            </div>
+            <div v-else-if="paramUrl === 'usernameakun'">
+              <div>
+                <router-view :key="$route.path" />
+              </div>
+            </div>
+            <div v-else-if="paramUrl === 'konfrimpayment'">
+              <div>
+                <router-view :key="$route.path" />
+              </div>
+            </div>
+            <div v-else-if="paramUrl === 'pesananbelumdiproses'">
+              <div>
+                <router-view :key="$route.path" />
+              </div>
+            </div>
+            <div v-else-if="paramUrl === 'transfertidaksesuai'">
+              <div>
+                <router-view :key="$route.path" />
+              </div>
+            </div>
+            <div v-else-if="paramUrl === 'belumditerima'">
+              <div>
+                <router-view :key="$route.path" />
+              </div>
+            </div>
+            <div v-else-if="paramUrl === 'melacak'">
+              <div>
+                <router-view :key="$route.path" />
+              </div>
+            </div>
+            <div v-else-if="paramUrl === 'resi'">
+              <div>
+                <router-view :key="$route.path" />
+              </div>
+            </div>
+            <div v-else-if="paramUrl === 'biayadaftar'">
+              <div>
+                <router-view :key="$route.path" />
+              </div>
+            </div>
+            <div v-else-if="paramUrl === 'email'">
+              <div>
+                <router-view :key="$route.path" />
+              </div>
+            </div>
+            <div v-else-if="paramUrl === 'facebook'">
+              <div>
+                <router-view :key="$route.path" />
+              </div>
+            </div>
+            <div v-else-if="paramUrl === 'gmail'">
+              <div>
+                <router-view :key="$route.path" />
+              </div>
+            </div>
+            <div v-else-if="paramUrl === 'loginebh'">
+              <div>
+                <router-view :key="$route.path" />
+              </div>
+            </div>
+              <div v-else-if="paramUrl === 'syaratmember'">
+                <div>
+                  <router-view :key="$route.path" />
+                </div>
+              </div>
+              <div v-else-if="paramUrl === 'sekilas'">
+                <div>
+                  <router-view :key="$route.path" />
+                </div>
+              </div>
+
 
     <div v-else>
       <app-nav-bar />

@@ -36,6 +36,75 @@ import fiksiPage from '../components/Blog/fiksi.vue'
 import nonfiksiPage from '../components/Blog/nonfiksi.vue'
 import pejuangPage from '../components/Blog/pejuang.vue'
 import malaikatPage from '../components/Blog/malaikat.vue'
+
+import addbarangPage from '../components/BantuanEBH/allbelanja/addbarang.vue'
+import addcheckoutPage from '../components/BantuanEBH/allbelanja/addcheckout.vue'
+import masalahpromoPage from '../components/BantuanEBH/allbelanja/masalahpromo.vue'
+
+import menerimapesananaPage from '../components/BantuanEBH/allditerima/menerimapesanana.vue'
+import racecoinPage from '../components/BantuanEBH/allditerima/racecoin.vue'
+
+import jadiofficePage from '../components/BantuanEBH/allkerjasama/jadioffice.vue'
+import layananofficePage from '../components/BantuanEBH/allkerjasama/layananoffice.vue'
+import produkdilarangPage from '../components/BantuanEBH/allkerjasama/produkdilarang.vue'
+
+import aturkirimPage from '../components/BantuanEBH/allmember/aturkirim.vue'
+import editalamatmemberPage from '../components/BantuanEBH/allmember/editalamatmember.vue'
+import fotoakunPage from '../components/BantuanEBH/allmember/fotoakun.vue'
+import hapusalamatPage from '../components/BantuanEBH/allmember/hapusalamat.vue'
+import kebijakanprivasiPage from '../components/BantuanEBH/allmember/kebijakanprivasi.vue'
+import namaakunPage from '../components/BantuanEBH/allmember/namaakun.vue'
+import passwordakunPage from '../components/BantuanEBH/allmember/passwordakun.vue'
+import usernameakunPage from '../components/BantuanEBH/allmember/usernameakun.vue'
+
+import konfrimpaymentPage from '../components/BantuanEBH/allpembayaran/konfrimpayment.vue'
+import pesananbelumdiprosesPage from '../components/BantuanEBH/allpembayaran/pesananbelumdiproses.vue'
+import transfertidaksesuaiPage from '../components/BantuanEBH/allpembayaran/transfertidaksesuai.vue'
+
+import belumditerimaPage from '../components/BantuanEBH/allpengiriman/belumditerima.vue'
+import melacakPage from '../components/BantuanEBH/allpengiriman/melacak.vue'
+import resiPage from '../components/BantuanEBH/allpengiriman/resi.vue'
+
+import biayadaftarPage from '../components/BantuanEBH/allregistrasi/biayadaftar.vue'
+import emailPage from '../components/BantuanEBH/allregistrasi/email.vue'
+import facebookPage from '../components/BantuanEBH/allregistrasi/facebook.vue'
+import gmailPage from '../components/BantuanEBH/allregistrasi/gmail.vue'
+import loginebhPage from '../components/BantuanEBH/allregistrasi/loginebh.vue'
+import syaratmemberPage from '../components/BantuanEBH/allregistrasi/syaratmember.vue'
+
+
+
+import satuPage from '../components/Blog/rekomondasibuku/1.vue'
+import duaPage from '../components/Blog/rekomondasibuku/2.vue'
+import tigaPage from '../components/Blog/rekomondasibuku/3.vue'
+import empatPage from '../components/Blog/rekomondasibuku/4.vue'
+import limaPage from '../components/Blog/rekomondasibuku/5.vue'
+import enamPage from '../components/Blog/rekomondasibuku/6.vue'
+import tujuhPage from '../components/Blog/rekomondasibuku/7.vue'
+import delapanPage from '../components/Blog/rekomondasibuku/8.vue'
+import sembilanPage from '../components/Blog/rekomondasibuku/9.vue'
+import sepuluhPage from '../components/Blog/rekomondasibuku/10.vue'
+
+import aPage from '../components/Blog/alltrivia/a.vue'
+import bPage from '../components/Blog/alltrivia/b.vue'
+import cPage from '../components/Blog/alltrivia/c.vue'
+import dPage from '../components/Blog/alltrivia/d.vue'
+import ePage from '../components/Blog/alltrivia/e.vue'
+import fPage from '../components/Blog/alltrivia/f.vue'
+import gPage from '../components/Blog/alltrivia/g.vue'
+import hPage from '../components/Blog/alltrivia/h.vue'
+
+import bestsellernovelPage from '../components/Blog/allfiksi/bestsellernovel.vue'
+import fiksiterbaikPage from '../components/Blog/allfiksi/fiksiterbaik.vue'
+import sayuranorganikPage from '../components/Blog/allfiksi/sayuranorganik.vue'
+
+import avangerPage from '../components/Blog/allnonfiksi/avanger.vue'
+import snmptnPage from '../components/Blog/allnonfiksi/snmptn.vue'
+
+import bayarPage from '../components/Blog/allupdate/bayar.vue'
+import racePage from '../components/Blog/allupdate/race.vue'
+
+
 import kartuangkaPage from '../components/kartuangka.vue'
 import pesananPage from '../components/pesanan.vue'
 import pesananbatalPage from '../components/pesananbatal.vue'
@@ -142,7 +211,138 @@ const routes = [
     name: 'promosi',
     component: promosiPage
   },
+
   {
+    path: '/Blog/allnonfiksi/avanger',
+    name: 'avanger',
+    component: avangerPage
+  },
+   {
+    path: '/Blog/allnonfiksi/snmptn',
+    name: 'snmptn',
+    component: snmptnPage
+  },
+
+  {
+    path: '/Blog/allupdate/bayar',
+    name: 'bayar',
+    component: bayarPage
+  },
+  {
+    path: '/Blog/allupdate/race',
+    name: 'race',
+    component: racePage
+  },
+
+  {
+    path: '/Blog/allfiksi/bestsellernovel',
+    name: 'bestsellernovel',
+    component: bestsellernovelPage
+  },
+ {
+    path: '/Blog/allfiksi/fiksiterbaik',
+    name: 'fiksiterbaik',
+    component: fiksiterbaikPage
+  },
+  {
+    path: '/Blog/allfiksi/sayuranorganik',
+    name: 'sayuranorganik',
+    component: sayuranorganikPage
+  },
+  
+  {
+    path: '/Blog/rekomondasibuku/1',
+    name: '1',
+    component: satuPage
+  },
+  {
+    path: '/Blog/rekomondasibuku/2',
+    name: '2',
+    component: duaPage
+  },
+{
+    path: '/Blog/rekomondasibuku/3',
+    name: '3',
+    component: tigaPage
+  },
+  {
+    path: '/Blog/rekomondasibuku/4',
+    name: '4',
+    component: empatPage
+  },
+  {
+    path: '/Blog/rekomondasibuku/5',
+    name: '5',
+    component: limaPage
+  },
+  {
+    path: '/Blog/rekomondasibuku/6',
+    name: '6',
+    component: enamPage
+  },
+  {
+    path: '/Blog/rekomondasibuku/7',
+    name: 'tujuh',
+    component: tujuhPage
+  },
+  {
+    path: '/Blog/rekomondasibuku/8',
+    name: '8',
+    component: delapanPage
+  },
+  
+  {
+    path: '/Blog/rekomondasibuku/9',
+    name: 'sembilan',
+    component: sembilanPage
+  },
+   {
+    path: '/Blog/rekomondasibuku/10',
+    name: 'sepuluh',
+    component: sepuluhPage
+  },
+
+  {
+    path: '/Blog/alltrivia/a',
+    name: 'a',
+    component: aPage
+  },
+   {
+    path: '/Blog/alltrivia/b',
+    name: 'b',
+    component: bPage
+  },
+   {
+    path: '/Blog/alltrivia/c',
+    name: 'c',
+    component: cPage
+  },
+   {
+    path: '/Blog/alltrivia/d',
+    name: 'd',
+    component: dPage
+  },
+   {
+    path: '/Blog/alltrivia/e',
+    name: 'e',
+    component: ePage
+  },
+   {
+    path: '/Blog/alltrivia/f',
+    name: 'f',
+    component: fPage
+  },
+   {
+    path: '/Blog/alltrivia/g',
+    name: 'g',
+    component: gPage
+  },
+   {
+    path: '/Blog/alltrivia/h',
+    name: 'h',
+    component: hPage
+  },
+{
     path: '/Blog/review',
     name: 'review',
     component: reviewPage
@@ -369,6 +569,156 @@ const routes = [
     name: 'kerjasama',
     component: kerjasamaPage
   },
+
+  {
+    path: '/BantuanEBH/allbelanja/addbarang',
+    name: 'addbarang',
+    component: addbarangPage
+  },
+  {
+    path: '/BantuanEBH/allbelanja/addcheckout',
+    name: 'addcheckout',
+    component: addcheckoutPage
+  },
+   {
+    path: '/BantuanEBH/allbelanja/masalahpromo',
+    name: 'masalahpromo',
+    component: masalahpromoPage
+  },
+
+  {
+    path: '/BantuanEBH/allditerima/menerimapesanana',
+    name: 'menerimapesanana',
+    component: menerimapesananaPage
+  },
+    {
+    path: '/BantuanEBH/allditerima/racecoin',
+    name: 'racecoin',
+    component: racecoinPage
+  },
+
+  {
+    path: '/BantuanEBH/allditerima/jadioffice',
+    name: 'jadioffice',
+    component: jadiofficePage
+  },
+  {
+    path: '/BantuanEBH/allditerima/layananoffice',
+    name: 'layananoffice',
+    component: layananofficePage
+  },
+  {
+    path: '/BantuanEBH/allditerima/produkdilarang',
+    name: 'produkdilarang',
+    component: produkdilarangPage
+  },
+
+  {
+    path: '/BantuanEBH/allmember/aturkirim',
+    name: 'aturkirim',
+    component: aturkirimPage
+  },
+  
+  {
+    path: '/BantuanEBH/allmember/editalamatmember',
+    name: 'editalamatmember',
+    component: editalamatmemberPage
+  },
+  {
+    path: '/BantuanEBH/allmember/fotoakun',
+    name: 'fotoakun',
+    component: fotoakunPage
+  },
+  {
+    path: '/BantuanEBH/allmember/hapusalamat',
+    name: 'hapusalamat',
+    component: hapusalamatPage
+  },
+  {
+    path: '/BantuanEBH/allmember/kebijakanprivasi',
+    name: 'kebijakanprivasi',
+    component: kebijakanprivasiPage
+  },
+  {
+    path: '/BantuanEBH/allmember/namaakun',
+    name: 'namaakun',
+    component: namaakunPage
+  },
+  {
+    path: '/BantuanEBH/allmember/passwordakun',
+    name: 'passwordakun',
+    component: passwordakunPage
+  },
+  {
+    path: '/BantuanEBH/allmember/usernameakun',
+    name: 'usernameakun',
+    component: usernameakunPage
+  },
+
+  {
+    path: '/BantuanEBH/allpembayaran/konfrimpayment',
+    name: 'konfrimpayment',
+    component: konfrimpaymentPage
+  },
+  {
+    path: '/BantuanEBH/allpembayaran/pesananbelumdiproses',
+    name: 'pesananbelumdiproses',
+    component: pesananbelumdiprosesPage
+  },
+  {
+    path: '/BantuanEBH/allpembayaran/transfertidaksesuai',
+    name: 'transfertidaksesuai',
+    component: transfertidaksesuaiPage
+  },
+  
+ {
+    path: '/BantuanEBH/allpengiriman/belumditerima',
+    name: 'belumditerima',
+    component: belumditerimaPage
+  },
+  {
+    path: '/BantuanEBH/allpengiriman/melacak',
+    name: 'melacak',
+    component: melacakPage
+  },
+  {
+    path: '/BantuanEBH/allpengiriman/resi',
+    name: 'resi',
+    component: resiPage
+  },
+
+    {
+    path: '/BantuanEBH//allregistrasi/biayadaftar',
+    name: 'biayadaftar',
+    component: biayadaftarPage
+  },
+   {
+    path: '/BantuanEBH//allregistrasi/email',
+    name: 'email',
+    component: emailPage
+  },
+  {
+    path: '/BantuanEBH//allregistrasi/facebook',
+    name: 'facebook',
+    component: facebookPage
+  },
+  {
+    path: '/BantuanEBH//allregistrasi/gmail',
+    name: 'gmail',
+    component: gmailPage
+  },
+   {
+    path: '/BantuanEBH//allregistrasi/loginebh',
+    name: 'loginebh',
+    component: loginebhPage
+  },
+  {
+    path: '/BantuanEBH//allregistrasi/syaratmember',
+    name: 'syaratmember',
+    component: syaratmemberPage
+  },
+
+  
   
 ]
 

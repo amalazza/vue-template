@@ -12,6 +12,7 @@
             </div>
         </div>
     </div>
+    
         <section class="bg0 p-t-20 text-left" style="min-height: 100%">
             <div class="container">
                 <h3 class="ltext-101 p-tb-20">Rekomendasi Buku</h3>
@@ -19,20 +20,18 @@
                     <div class="col-sm-6 col-md-3 p-b-20">
                         <div class="blog-item bg0 bor8">
                             <div class="blog-pic hov-img0">
-                                <a
-                                    href="https://www.eurekabookhouse.co.id/blog/read/apa-saja-jenis-buku-generasi-milenial-yang-paling-diminati">
+                                <router-link :to="'/Blog/rekomondasibuku/1'">
                                     <img class="blog-read-pic"
                                         src="https://cdn.eurekabookhouse.co.id/ebh/blog/Apa_Saja_Jenis_Buku_Generasi_Milenial_yang_Paling_Diminati.jpg">
-                                </a>
+                                </router-link>
                             </div>
                             <div class="p-all-15">
-                                <div class="stext-112 flex-w p-b-14 cl1"><a
-                                        href="https://www.eurekabookhouse.co.id/blog/category/rekomendasi-buku">Rekomendasi
-                                        Buku</a></div>
+                                <div class="stext-112 flex-w p-b-14 cl1"><router-link :to="'/Blog/rekomondasibuku/1'">Rekomendasi
+                                        Buku</router-link></div>
                                 <h4 class="p-b-32">
-                                    <a href="https://www.eurekabookhouse.co.id/blog/read/apa-saja-jenis-buku-generasi-milenial-yang-paling-diminati"
+                                    <router-link :to="'/Blog/rekomondasibuku/1'"
                                         class="mtext-101 cl2 hov-cl1 trans-04">
-                                        Apa Saja Jenis Buku Generasi Milenial yang Paling Diminati? </a>
+                                        Apa Saja Jenis Buku Generasi Milenial yang Paling Diminati? </router-link>
                                 </h4>
                                 <span class="stext-102 m-t-20">11 November 2022</span>
                             </div>
@@ -41,20 +40,18 @@
                     <div class="col-sm-6 col-md-3 p-b-20">
                         <div class="blog-item bg0 bor8">
                             <div class="blog-pic hov-img0">
-                                <a
-                                    href="https://www.eurekabookhouse.co.id/blog/read/lalui-februari-dengan-novel-cinta-nan-romantis-ini">
+                                <router-link :to="'/Blog/rekomondasibuku/2'">
                                     <img class="blog-read-pic"
                                         src="https://cdn.eurekabookhouse.co.id/ebh/blog/valentines-day.jpg">
-                                </a>
+                                </router-link>
                             </div>
                             <div class="p-all-15">
-                                <div class="stext-112 flex-w p-b-14 cl1"><a
-                                        href="https://www.eurekabookhouse.co.id/blog/category/rekomendasi-buku">Rekomendasi
-                                        Buku</a></div>
+                                <div class="stext-112 flex-w p-b-14 cl1"><router-link :to="'/Blog/rekomondasibuku/2'">Rekomendasi
+                                        Buku</router-link></div>
                                 <h4 class="p-b-32">
-                                    <a href="https://www.eurekabookhouse.co.id/blog/read/lalui-februari-dengan-novel-cinta-nan-romantis-ini"
+                                <router-link :to="'/Blog/rekomondasibuku/2'"
                                         class="mtext-101 cl2 hov-cl1 trans-04">
-                                        Lalui Februari dengan novel cinta nan romantis ini </a>
+                                        Lalui Februari dengan novel cinta nan romantis ini </router-link>
                                 </h4>
                                 <span class="stext-102 m-t-20">10 November 2022</span>
                             </div>
@@ -63,19 +60,18 @@
                     <div class="col-sm-6 col-md-3 p-b-20">
                         <div class="blog-item bg0 bor8">
                             <div class="blog-pic hov-img0">
-                                <a href="https://www.eurekabookhouse.co.id/blog/read/10-buku-smk-best-seller-januari-2019">
+                                <router-link :to="'/Blog/rekomondasibuku/3'">
                                     <img class="blog-read-pic"
                                         src="https://cdn.eurekabookhouse.co.id/ebh/blog/siswa-smk-57e49410719373ab26bf8458.jpg">
-                                </a>
+                                </router-link>
                             </div>
                             <div class="p-all-15">
-                                <div class="stext-112 flex-w p-b-14 cl1"><a
-                                        href="https://www.eurekabookhouse.co.id/blog/category/rekomendasi-buku">Rekomendasi
-                                        Buku</a></div>
+                                <div class="stext-112 flex-w p-b-14 cl1"><router-link :to="'/Blog/rekomondasibuku/3'">Rekomendasi
+                                        Buku</router-link></div>
                                 <h4 class="p-b-32">
-                                    <a href="https://www.eurekabookhouse.co.id/blog/read/10-buku-smk-best-seller-januari-2019"
+                                    <router-link :to="'/Blog/rekomondasibuku/3'"
                                         class="mtext-101 cl2 hov-cl1 trans-04">
-                                        10 Buku SMK Best Seller Januari 2019 </a>
+                                        10 Buku SMK Best Seller Januari 2019 </router-link>
                                 </h4>
                                 <span class="stext-102 m-t-20">11 November 2022</span>
                             </div>
@@ -84,20 +80,18 @@
                     <div class="col-sm-6 col-md-3 p-b-20">
                         <div class="blog-item bg0 bor8">
                             <div class="blog-pic hov-img0">
-                                <a
-                                    href="https://www.eurekabookhouse.co.id/blog/read/buku-sd-terlaris---best-seller-januari-2019">
+                            <router-link :to="'/Blog/rekomondasibuku/4'">
                                     <img class="blog-read-pic"
                                         src="https://cdn.eurekabookhouse.co.id/ebh/blog/Siswa-Belajar.png">
-                                </a>
+                                </router-link>
                             </div>
                             <div class="p-all-15">
-                                <div class="stext-112 flex-w p-b-14 cl1"><a
-                                        href="https://www.eurekabookhouse.co.id/blog/category/rekomendasi-buku">Rekomendasi
-                                        Buku</a></div>
+                                <div class="stext-112 flex-w p-b-14 cl1"><router-link :to="'/Blog/rekomondasibuku/4'">Rekomendasi
+                                        Buku</router-link></div>
                                 <h4 class="p-b-32">
-                                    <a href="https://www.eurekabookhouse.co.id/blog/read/buku-sd-terlaris---best-seller-januari-2019"
+                                    <router-link :to="'/Blog/rekomondasibuku/4'"
                                         class="mtext-101 cl2 hov-cl1 trans-04">
-                                        Buku SD Terlaris / Best Seller Januari 2019 </a>
+                                        Buku SD Terlaris / Best Seller Januari 2019 </router-link>
                                 </h4>
                                 <span class="stext-102 m-t-20">11 November 2022</span>
                             </div>
@@ -106,19 +100,18 @@
                     <div class="col-sm-6 col-md-3 p-b-20">
                         <div class="blog-item bg0 bor8">
                             <div class="blog-pic hov-img0">
-                                <a href="https://www.eurekabookhouse.co.id/blog/read/inilah-best-seller-buku-soal-januari-2019">
+                                <router-link :to="'/Blog/rekomondasibuku/5'">
                                     <img class="blog-read-pic"
                                         src="https://cdn.eurekabookhouse.co.id/ebh/blog/1040157-riz--hari-pertama-ujian-nasional--780x390.jpg">
-                                </a>
+                                </router-link>
                             </div>
                             <div class="p-all-15">
-                                <div class="stext-112 flex-w p-b-14 cl1"><a
-                                        href="https://www.eurekabookhouse.co.id/blog/category/rekomendasi-buku">Rekomendasi
-                                        Buku</a></div>
+                                <div class="stext-112 flex-w p-b-14 cl1"><router-link :to="'/Blog/rekomondasibuku/5'">Rekomendasi
+                                        Buku</router-link></div>
                                 <h4 class="p-b-32">
-                                    <a href="https://www.eurekabookhouse.co.id/blog/read/inilah-best-seller-buku-soal-januari-2019"
+                                <router-link :to="'/Blog/rekomondasibuku/5'"
                                         class="mtext-101 cl2 hov-cl1 trans-04">
-                                        Inilah Best Seller Buku Soal Januari 2019 </a>
+                                        Inilah Best Seller Buku Soal Januari 2019 </router-link>
                                 </h4>
                                 <span class="stext-102 m-t-20">11 November 2022</span>
                             </div>
@@ -127,18 +120,17 @@
                     <div class="col-sm-6 col-md-3 p-b-20">
                         <div class="blog-item bg0 bor8">
                             <div class="blog-pic hov-img0">
-                                <a href="https://www.eurekabookhouse.co.id/blog/read/buku-tk-best-seller-januari-2019">
+                                <router-link :to="'/Blog/rekomondasibuku/6'">
                                     <img class="blog-read-pic" src="https://cdn.eurekabookhouse.co.id/ebh/blog/2014001631.jpg">
-                                </a>
+                                </router-link>
                             </div>
                             <div class="p-all-15">
-                                <div class="stext-112 flex-w p-b-14 cl1"><a
-                                        href="https://www.eurekabookhouse.co.id/blog/category/rekomendasi-buku">Rekomendasi
-                                        Buku</a></div>
+                                <div class="stext-112 flex-w p-b-14 cl1"><router-link :to="'/Blog/rekomondasibuku/6'">Rekomendasi
+                                        Buku</router-link></div>
                                 <h4 class="p-b-32">
-                                    <a href="https://www.eurekabookhouse.co.id/blog/read/buku-tk-best-seller-januari-2019"
+                                <router-link :to="'/Blog/rekomondasibuku/6'"
                                         class="mtext-101 cl2 hov-cl1 trans-04">
-                                        Buku TK Best seller Januari 2019 </a>
+                                        Buku TK Best seller Januari 2019 </router-link>
                                 </h4>
                                 <span class="stext-102 m-t-20">12 November 2022</span>
                             </div>
@@ -147,18 +139,17 @@
                     <div class="col-sm-6 col-md-3 p-b-20">
                         <div class="blog-item bg0 bor8">
                             <div class="blog-pic hov-img0">
-                                <a href="https://www.eurekabookhouse.co.id/blog/read/buku-smp-best-seller-januari-2019">
+                                <router-link :to="'/Blog/rekomondasibuku/7'">
                                     <img class="blog-read-pic" src="https://cdn.eurekabookhouse.co.id/ebh/blog/0035100331.jpg">
-                                </a>
+                                </router-link>
                             </div>
                             <div class="p-all-15">
-                                <div class="stext-112 flex-w p-b-14 cl1"><a
-                                        href="https://www.eurekabookhouse.co.id/blog/category/rekomendasi-buku">Rekomendasi
-                                        Buku</a></div>
+                                <div class="stext-112 flex-w p-b-14 cl1"><router-link :to="'/Blog/rekomondasibuku/7'">Rekomendasi
+                                        Buku</router-link></div>
                                 <h4 class="p-b-32">
-                                    <a href="https://www.eurekabookhouse.co.id/blog/read/buku-smp-best-seller-januari-2019"
+                                    <router-link :to="'/Blog/rekomondasibuku/7'"
                                         class="mtext-101 cl2 hov-cl1 trans-04">
-                                        Buku SMP Best seller Januari 2019 </a>
+                                        Buku SMP Best seller Januari 2019 </router-link>
                                 </h4>
                                 <span class="stext-102 m-t-20">10 November 2022</span>
                             </div>
@@ -167,18 +158,17 @@
                     <div class="col-sm-6 col-md-3 p-b-20">
                         <div class="blog-item bg0 bor8">
                             <div class="blog-pic hov-img0">
-                                <a href="https://www.eurekabookhouse.co.id/blog/read/buku-sma-best-seller-januari-2019">
+                            <router-link :to="'/Blog/rekomondasibuku/8'">
                                     <img class="blog-read-pic" src="https://cdn.eurekabookhouse.co.id/ebh/blog/0045400360.jpg">
-                                </a>
+                                </router-link>
                             </div>
                             <div class="p-all-15">
-                                <div class="stext-112 flex-w p-b-14 cl1"><a
-                                        href="https://www.eurekabookhouse.co.id/blog/category/rekomendasi-buku">Rekomendasi
-                                        Buku</a></div>
+                                <div class="stext-112 flex-w p-b-14 cl1"><router-link :to="'/Blog/rekomondasibuku/8'">Rekomendasi
+                                        Buku</router-link></div>
                                 <h4 class="p-b-32">
-                                    <a href="https://www.eurekabookhouse.co.id/blog/read/buku-sma-best-seller-januari-2019"
+                                <router-link :to="'/Blog/rekomondasibuku/8'"
                                         class="mtext-101 cl2 hov-cl1 trans-04">
-                                        Buku SMA Best seller Januari 2019 </a>
+                                        Buku SMA Best seller Januari 2019 </router-link>
                                 </h4>
                                 <span class="stext-102 m-t-20">11 November 2022</span>
                             </div>
@@ -187,19 +177,18 @@
                     <div class="col-sm-6 col-md-3 p-b-20">
                         <div class="blog-item bg0 bor8">
                             <div class="blog-pic hov-img0">
-                                <a href="https://www.eurekabookhouse.co.id/blog/read/sepuluh-buku-anak-terlaris-januari-2019">
+                                <router-link :to="'/Blog/rekomondasibuku/9'">
                                     <img class="blog-read-pic"
                                         src="https://cdn.eurekabookhouse.co.id/ebh/blog/mengajarkan-anak.jpg">
-                                </a>
+                                </router-link>
                             </div>
                             <div class="p-all-15">
-                                <div class="stext-112 flex-w p-b-14 cl1"><a
-                                        href="https://www.eurekabookhouse.co.id/blog/category/rekomendasi-buku">Rekomendasi
-                                        Buku</a></div>
+                                <div class="stext-112 flex-w p-b-14 cl1"><router-link :to="'/Blog/rekomondasibuku/9'">Rekomendasi
+                                        Buku</router-link></div>
                                 <h4 class="p-b-32">
-                                    <a href="https://www.eurekabookhouse.co.id/blog/read/sepuluh-buku-anak-terlaris-januari-2019"
+                                    <router-link :to="'/Blog/rekomondasibuku/9'"
                                         class="mtext-101 cl2 hov-cl1 trans-04">
-                                        Sepuluh Buku Anak Terlaris Januari 2019 </a>
+                                        Sepuluh Buku Anak Terlaris Januari 2019 </router-link>
                                 </h4>
                                 <span class="stext-102 m-t-20">12 November 2022</span>
                             </div>
@@ -208,19 +197,18 @@
                     <div class="col-sm-6 col-md-3 p-b-20">
                         <div class="blog-item bg0 bor8">
                             <div class="blog-pic hov-img0">
-                                <a href="https://www.eurekabookhouse.co.id/blog/read/tryout-bersama-erlangga">
+                            <router-link :to="'/Blog/rekomondasibuku/10'">
                                     <img class="blog-read-pic"
                                         src="https://cdn.eurekabookhouse.co.id/ebh/blog/1040157-riz--hari-pertama-ujian-nasional--780x390.jpg">
-                                </a>
+                                </router-link>
                             </div>
                             <div class="p-all-15">
-                                <div class="stext-112 flex-w p-b-14 cl1"><a
-                                        href="https://www.eurekabookhouse.co.id/blog/category/rekomendasi-buku">Rekomendasi
-                                        Buku</a></div>
+                                <div class="stext-112 flex-w p-b-14 cl1"><router-link :to="'/Blog/rekomondasibuku/10'">Rekomendasi
+                                        Buku</router-link></div>
                                 <h4 class="p-b-32">
-                                    <a href="https://www.eurekabookhouse.co.id/blog/read/tryout-bersama-erlangga"
+                                    <router-link :to="'/Blog/rekomondasibuku/10'"
                                         class="mtext-101 cl2 hov-cl1 trans-04">
-                                        Tryout bersama Erlangga </a>
+                                        Tryout bersama Erlangga </router-link>
                                 </h4>
                                 <span class="stext-102 m-t-20">10 November 2022</span>
                             </div>
